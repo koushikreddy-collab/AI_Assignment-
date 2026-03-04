@@ -41,3 +41,6 @@ gcc Task3_Search/dfs_waterjug.c -o dfs
 ./aqi
 ./bfs
 ./dfs
+=======
+# AI_Assignment-
+>>>>>>> 5e6b37854da1a10b4881c8a0056018c4245c212c
