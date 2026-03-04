@@ -1,0 +1,53 @@
+AI ASSIGNMENT
+Task 1 – Architecture Design
+
+------------------------------------------
+1. TURING TEST ARCHITECTURE
+------------------------------------------
+
+Objective:
+To check whether a machine can behave like a human.
+
+Components:
+1. Judge
+2. Human Participant
+3. AI Chatbot
+4. Chat Interface
+5. Controller Module
+6. Decision Module
+7. Database
+
+Working:
+1. Judge logs into the system.
+2. Controller assigns two anonymous chat sessions.
+3. One session connects to a human.
+4. One session connects to AI.
+5. Judge chats without knowing identity.
+6. Judge selects which is machine.
+7. Result is stored in database.
+
+------------------------------------------
+2. CAPTCHA ARCHITECTURE
+------------------------------------------
+
+Objective:
+To verify whether a user is human or a bot.
+
+Components:
+1. User Browser
+2. Web Server
+3. CAPTCHA Generator
+4. Distortion Engine
+5. Verification Module
+6. Database
+
+Working:
+1. User requests webpage.
+2. Server generates random text.
+3. Text is stored in database.
+4. Distorted image is created.
+5. Image sent to user.
+6. User enters answer.
+7. System verifies answer.
+8. If correct → Access granted.
+9. If wrong → Access denied.
